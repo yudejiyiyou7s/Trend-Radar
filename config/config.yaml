@@ -426,7 +426,7 @@ ai:
 
   model: "deepseek/deepseek-v4-flash"
 
-  api_key: "sk-jKxWKXw2AN3chwmCOAoqhqQgnonrgSeJ"                       # API Key（建议使用环境变量 AI_API_KEY）
+  api_key: ""                       # API Key（建议使用环境变量 AI_API_KEY）
   
   api_base: "https://token.sensenova.cn/v1/chat/completions"                      # 自定义 API 地址（可选，绝大多数情况留空即可）
                                     #
