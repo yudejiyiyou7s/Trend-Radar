@@ -108,7 +108,7 @@ jobs:
             echo "version=latest" >> $GITHUB_OUTPUT
             echo "major_minor=latest" >> $GITHUB_OUTPUT
           fi
-
+ 
       - name: Extract metadata
         id: meta
         uses: docker/metadata-action@v6
