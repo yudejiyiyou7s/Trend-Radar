@@ -146,6 +146,15 @@ rss:
     - id: "economist"
       name: "一天经济学人(双语)"
       url: "https://plink.anyfeeder.com/weixin/Economist_fans"
+    - id: "jd-ir-news"
+      name: "京东IR-新闻稿"
+      url: "https://ir.jd.com/zh-hans/rss/news-releases.xml"
+    - id: "jd-ir-calendar"
+      name: "京东IR-活动日历"
+      url: "https://ir.jd.com/zh-hans/rss/calendar.xml"
+    - id: "jd-ir-sec"
+      name: "京东IR-证交会公告"
+      url: "https://ir.jd.com/zh-hans/rss/sec-filings.xml?items=15"
 
 # ===============================================================
 # 4. 报告模式
