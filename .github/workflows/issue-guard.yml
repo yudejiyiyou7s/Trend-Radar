@@ -1,5 +1,5 @@
 name: Issue Guard
-
+ 
 on:
   issues:
     types: [opened]
