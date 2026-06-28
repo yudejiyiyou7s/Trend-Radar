@@ -124,7 +124,7 @@ display:
     new_items: true      # ✅ 已开启
     hotlist: true        # ✅ 已开启
     rss: true            # ✅ 已开启
-    standalone: true     # ✅ 已开启
+    standalone: false     # ✅ 已开启
     ai_analysis: true    # ✅ 已开启
   standalone:
     platforms: ["zhihu","wallstreetcn-hot","toutiao","baidu","thepaper","cls-hot","bilibili-hot-search","ifeng","weibo","douyin","tieba"]
