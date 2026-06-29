@@ -285,7 +285,7 @@ ai_analysis:
   prompt_file: "ai_analysis_prompt.txt"
   mode: "follow_report"
   max_news_for_analysis: 150
-  include_rss: false
+  include_rss: true
   include_standalone: true
   include_rank_timeline: true
 
@@ -299,7 +299,7 @@ ai_translation:
   batch_size: 100
   batch_interval: 2
   scope:
-    hotlist: false
+    hotlist: true
     rss: true
     standalone: true
 
