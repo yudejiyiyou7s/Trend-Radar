@@ -16,8 +16,8 @@ app:
 # 1.5 调度系统
 # ===============================================================
 schedule:
-  enabled: true
-  preset: "always_on"
+  enabled: false
+  preset: "morning_evening"
 
 # ===============================================================
 # 2. 数据源 - 热榜平台
@@ -190,11 +190,11 @@ ai_filter:
 # ===============================================================
 display:
   region_order:
+    - ai_analysis
     - new_items
     - hotlist
     - rss
     - standalone
-    - ai_analysis
   regions:
     new_items: true      # ✅ 已开启
     hotlist: true        # ✅ 已开启
